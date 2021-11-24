@@ -32,6 +32,10 @@ _pure_set_default pure_color_git_branch pure_color_mute
 _pure_set_default pure_color_git_dirty pure_color_mute
 _pure_set_default pure_color_git_stash pure_color_info
 
+# Kubernetes
+_pure_set_default pure_enable_k8s true
+_pure_set_default pure_symbol_k8s_logo "⎈"
+
 # Remote info (user@hostname) for SSH and containers (Docker/LXC)
 _pure_set_default pure_color_hostname pure_color_mute
 _pure_set_default pure_color_at_sign pure_color_mute
